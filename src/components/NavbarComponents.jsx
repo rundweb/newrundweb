@@ -1,6 +1,7 @@
 import { useState } from "react";
 import logo from "../../assets/logo.png";
 import { TbMenu2 } from "react-icons/tb";
+import { IoClose } from "react-icons/io5";
 const NavbarComponents = () => {
   const menu = [
     {
@@ -95,9 +96,10 @@ const NavbarComponents = () => {
         </div>
       </ul>
       <TbMenu2
-        className="relative z-20 text-emerald-700 text-2xl md:hidden"
+        className={`relative z-20 text-emerald-700 text-2xl md:hidden ${menuOpen ? 'hidden' : 'block'}`}
         onClick={() => setMenuOpen(!menuOpen)}
       />
+    <IoClose className={`relative z-20 text-emerald-700 text-2xl md:hidden ${menuOpen ? 'block' : 'hidden'}`} onClick={() => setMenuOpen(!menuOpen)}/>
     </header>
   );
 };
