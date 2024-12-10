@@ -61,7 +61,7 @@ const NavbarComponents = () => {
 
       <ul
         className={`fixed  right-0 w-full bg-white flex flex-col items-center justify-center h-screen gap-1 ${
-          menuOpen ? "top-0" : "-top-full"
+          menuOpen ? "top-0" : "-top-125"
         } ease-in-out duration-700 md:hidden`}
       >
         <div className="nav-logo mb-4">

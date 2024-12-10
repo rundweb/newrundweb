@@ -9,6 +9,9 @@ export default {
       fontSize: {
         "16": "16px",
       },
+      spacing: {
+        '125': '125%',
+      }
     },
   },
   plugins: [],
