@@ -4,14 +4,14 @@ const HomeComponents = () => {
   return (
     <section className="max-w-screen-xl mt-28 m-auto overflow-x-hidden flex flex-col items-center justify-center gap-7">
       <div className="w-full h-full text-center flex flex-col items-center justify-center gap-5">
-        <p className="flex gap-2 items-center justify-center text-sm font-normal text-emerald-950 border-2 border-emerald-100 rounded-full py-2 px-2 shadow-md sm:w-fit sm:px-6 ">
+        <p className="flex gap-2 items-center justify-center text-sm font-normal text-emerald-900 border-2 border-emerald-100 rounded-full py-2 px-2 shadow-md sm:w-fit sm:px-6 lg:font-medium">
           <BsStars className="text-emerald-600 text-lg" />
           Wujudkan ide menjadi solusi digital
         </p>
-        <h1 className="text-emerald-950 font-bold text-4xl sm:max-w-screen-sm ">
+        <h1 className="text-emerald-950 font-bold text-4xl sm:max-w-screen-sm lg:text-5xl">
           Membangun Solusi Digital yang Elegan dan Fungsional
         </h1>
-        <h2 className="text-sm font-normal text-emerald-900 sm:max-w-screen-sm">
+        <h2 className="text-sm font-normal text-emerald-900 sm:max-w-screen-sm lg:text-lg">
           Hai, saya seorang web developer dengan passion untuk menciptakan
           pengalaman digital yang inovatif.
         </h2>
