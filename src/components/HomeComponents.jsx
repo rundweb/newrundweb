@@ -2,7 +2,7 @@ import { BsStars } from "react-icons/bs";
 
 const HomeComponents = () => {
   return (
-    <section className="max-w-screen-xl m-auto overflow-x-hidden flex flex-col items-center justify-center gap-7 mt-20">
+    <section className="max-w-screen-xl mt-28 m-auto overflow-x-hidden flex flex-col items-center justify-center gap-7">
       <div className="w-full h-full text-center flex flex-col items-center justify-center gap-5">
         <p className="flex gap-2 items-center justify-center text-sm font-normal text-emerald-950 border-2 border-emerald-100 rounded-full py-2 px-2 shadow-md sm:w-fit sm:px-6 ">
           <BsStars className="text-emerald-600 text-lg" />

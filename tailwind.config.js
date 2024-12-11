@@ -11,7 +11,8 @@ export default {
       },
       spacing: {
         '125': '125%',
-      }
+        '80vh' : '80vh'
+      },
     },
   },
   plugins: [],
