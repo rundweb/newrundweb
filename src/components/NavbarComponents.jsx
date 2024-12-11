@@ -26,6 +26,9 @@ const NavbarComponents = () => {
 
   return (
     <header className="max-w-screen-xl m-auto flex items-center justify-between font-inter relative">
+      <div className="nav-logo">
+        <img className="w-28 md:w-32" src={logo} alt="logo rundweb" />
+      </div>
       <ul className="hidden md:flex md:items-center gap-3">
         {menu.map((menus) => {
           return (
@@ -40,11 +43,6 @@ const NavbarComponents = () => {
           );
         })}
       </ul>
-
-      <div className="nav-logo">
-        <img className="w-28 md:w-32" src={logo} alt="logo rundweb" />
-      </div>
-
       <div className="hidden md:flex items-center gap-2">
         <a
           href=""
@@ -62,7 +60,7 @@ const NavbarComponents = () => {
 
       <ul
         className={`fixed  right-0 w-full bg-white flex flex-col items-center justify-center h-screen gap-1 ${
-          menuOpen ? "top-0" : "-top-125"
+          menuOpen ? "top-0" : "-top-full"
         } ease-in-out duration-700 md:hidden`}
       >
         <div className="nav-logo mb-4">
@@ -96,10 +94,17 @@ const NavbarComponents = () => {
         </div>
       </ul>
       <TbMenu2
-        className={`relative z-20 text-emerald-700 text-2xl md:hidden ${menuOpen ? 'hidden' : 'block'}`}
+        className={`relative z-20 text-emerald-700 text-2xl md:hidden ${
+          menuOpen ? "hidden" : "block"
+        }`}
         onClick={() => setMenuOpen(!menuOpen)}
       />
-    <IoClose className={`relative z-20 text-emerald-700 text-2xl md:hidden ${menuOpen ? 'block' : 'hidden'}`} onClick={() => setMenuOpen(!menuOpen)}/>
+      <IoClose
+        className={`relative z-20 text-emerald-700 text-2xl md:hidden ${
+          menuOpen ? "block" : "hidden"
+        }`}
+        onClick={() => setMenuOpen(!menuOpen)}
+      />
     </header>
   );
 };
