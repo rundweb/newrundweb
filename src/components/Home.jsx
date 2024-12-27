@@ -19,13 +19,13 @@ function Home() {
       <div className="flex flex-col gap-4 w-full sm:flex-row items-center justify-center">
         <a
           href=""
-          className="text-sm border-2 border-emerald-700  text-emerald-700 font-bold tracking-wide rounded-2xl py-[10px] px-8 hover:bg-emerald-700 hover:text-white ease-in-out duration-500"
+          className="w-full md:w-auto text-sm border-2 border-emerald-700  text-emerald-700 font-bold tracking-wide rounded-lg py-[10px] px-8 hover:bg-emerald-700 hover:text-white ease-in-out duration-500"
         >
           Start your free trial
         </a>
         <a
           href=""
-          className="text-sm border-2 border-emerald-700  text-white font-bold tracking-wide bg-emerald-700 py-[10px] px-8 rounded-2xl hover:bg-white hover:text-emerald-700 ease-in-out duration-500"
+          className="w-full md:w-auto text-sm border-2 border-emerald-700  text-white font-bold tracking-wide bg-emerald-700 py-[10px] px-8 rounded-lg hover:bg-white hover:text-emerald-700 ease-in-out duration-500"
         >
           Lets Started
         </a>

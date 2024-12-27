@@ -35,7 +35,7 @@ function Navbar() {
       </div>
       <div
         className={`md:hidden fixed flex items-center h-screen flex-col justify-center bg-white left-0 w-full gap-1 ${
-          openMenu ? "top-0" : "-top-full"
+          openMenu ? "top-0" : "-top-[125%]"
         } ease-in-out duration-500`}
       >
         <div className="logo w-32 mb-4">
@@ -47,13 +47,13 @@ function Navbar() {
         <div className="flex flex-col gap-2 text-center mt-4 w-full justify-center items-center">
           <a
             href=""
-            className="border-2 border-emerald-700 w-3/4 text-emerald-700 font-semibold rounded-sm py-[6px]"
+            className="border-2 border-emerald-700 w-3/4 text-emerald-700 font-semibold rounded-lg py-[6px]"
           >
             SIGN IN
           </a>
           <a
             href=""
-            className="border-2 border-emerald-700 w-3/4 text-white font-semibold bg-emerald-700 py-[6px] rounded-sm"
+            className="border-2 border-emerald-700 w-3/4 text-white font-semibold bg-emerald-700 py-[6px] rounded-lg"
           >
             GETS STARTED
           </a>
@@ -78,13 +78,13 @@ function Navbar() {
         <div className="flex gap-3 text-center justify-center items-center">
           <a
             href=""
-            className="text-sm border-2 border-emerald-700  text-emerald-700 font-semibold rounded-sm py-[6px] px-5 hover:bg-emerald-700 hover:text-white ease-in-out duration-500"
+            className="text-sm border-2 border-emerald-700  text-emerald-700 font-semibold rounded-lg py-[6px] px-5 hover:bg-emerald-700 hover:text-white ease-in-out duration-500"
           >
             SIGN IN
           </a>
           <a
             href=""
-            className="text-sm border-2 border-emerald-700  text-white font-semibold bg-emerald-700 py-[6px] px-5 rounded-sm hover:bg-white hover:text-emerald-700 ease-in-out duration-500"
+            className="text-sm border-2 border-emerald-700  text-white font-semibold bg-emerald-700 py-[6px] px-5 rounded-lg hover:bg-white hover:text-emerald-700 ease-in-out duration-500"
           >
             GETS STARTED
           </a>
